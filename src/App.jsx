@@ -1,9 +1,13 @@
+import { Container } from "react-bootstrap";
 import "./App.css";
+import MovieWishListContainer from "./components/MovieWishListContainer";
 
 function App() {
   return (
     <>
-      <div>hello</div>
+      <Container className="my-4">
+        <MovieWishListContainer />
+      </Container>
     </>
   );
 }
